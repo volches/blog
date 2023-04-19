@@ -1,0 +1,5 @@
+mixin footer-nav(args)
+    nav.footer-nav
+        each item in args 
+            a(href= item.link)= item.name
+                

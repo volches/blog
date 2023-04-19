@@ -1,0 +1,25 @@
+include ./../mixins/footer-nav.pug
+include ./../mixins/social-icons.pug
+
+footer.footer
+    .container
+        .footer__wrapper
+            +footer-nav([
+                {name: 'Latest Posts', link: 'index.html' },
+                {name: 'Popular Posts', link: 'index.html' }
+            ])
+            +footer-nav([
+                {name: 'Search', link: 'index.html' },
+                {name: 'Contact Information', link: 'index.html' }
+            ])
+            +footer-nav([
+                {name: 'Privacy Policy', link: 'index.html' },
+                {name: 'Terms of Use', link: 'index.html' }
+            ])
+            +social-icons([
+                {link: '#', img: './img/header/social-icons/twit.svg', title: 'Instagramm'},
+                {link: '#', img: './img/header/social-icons/inst.svg', title: 'Twitter'},
+                {link: '#', img: './img/header/social-icons/facebook.svg', title: 'Facebook'}
+
+            ])
+                

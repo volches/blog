@@ -1,0 +1,7 @@
+mixin social-icons(iconItems)
+    ul.social-icons
+        li
+        each item in iconItems
+            a(href= item.link).social-icons__item
+                img(src=item.img, alt=item.title)
+    

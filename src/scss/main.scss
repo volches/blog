@@ -1,0 +1,27 @@
+
+// Base
+@import "./base/vars";
+@import "./base/reset";
+@import "./base/base";
+
+// Sections
+@import "./sections/header";
+@import "./sections/footer";
+@import "./sections/copyright";
+@import "./sections/section-posts";
+
+// Blocks
+@import "./blocks/button";
+@import "./blocks/button-post";
+@import "./blocks/h1";
+@import "./blocks/h2";
+@import "./blocks/h3";
+@import "./blocks/h4";
+@import "./blocks/social-icons";
+@import "./blocks/container-big";
+@import "./blocks/container";
+@import "./blocks/post";
+@import "./blocks/sidebar-post";
+@import "./blocks/instagram-post";
+@import "./blocks/pagination";
+

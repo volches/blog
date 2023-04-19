@@ -1,0 +1,30 @@
+.button {
+    display: inline-block;
+    
+    height: 38px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    background-color: #375573;
+    border: 2px solid #375573;
+
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 36px;
+    text-transform: uppercase;
+    transition: background-color 0.5s, border 0.5s, color 0.5s;
+    color: #fff;
+
+    white-space: nowrap;
+
+    &:hover, &:focus {
+        background-color: #fff;
+        color: #000;
+    }
+
+    &:active {
+        background-color: #687888;
+        border: 2px solid #687888;
+        color: #fff;
+    }
+}

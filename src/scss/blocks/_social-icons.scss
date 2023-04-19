@@ -1,0 +1,22 @@
+.social-icons {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.social-icons__item {
+    width: 24px;
+    transform: opacity 0.5s;
+
+    & :hover {
+        opacity: 0.7;
+    }
+}
+
+.social-icons__item:first-child {
+    width: 22px;
+}
+
+.social-icons__item:last-child {
+    width: 14px;
+}

@@ -1,0 +1,17 @@
+include ./../mixins/social-icons.pug
+
+header.header 
+    .container-big 
+        .header__wrapper 
+            .header__social
+                +social-icons([
+                {link: '#', img: './img/header/social-icons/twit.svg', title: 'Instagramm'},
+                {link: '#', img: './img/header/social-icons/inst.svg', title: 'Twitter'},
+                {link: '#', img: './img/header/social-icons/facebook.svg', title: 'Facebook'}
+                ])
+            .header__title 
+                h1.h1 Hipsum Blog
+            .header__but
+                button.header__but-search
+                    img(src="./img/header/but/search.svg" alt="Search")
+                button.button Subscribe

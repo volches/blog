@@ -1,0 +1,59 @@
+.recent-posts-sidebar .h4,
+.popular-posts-sidebar .h4 {
+    margin-bottom: 10px;
+}
+
+.instagram-sidebar .h4 {
+    margin-bottom: 30px;
+}
+
+.sidebar-post__link-wrapper {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    transition: opacity 0.5s;
+    
+
+    &:not(:last-child) {
+        border-bottom: 1px solid #dde2e7;
+    }
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+.sidebar-post {
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.sidebar-post__img{
+    margin-bottom: 30px;
+}
+
+.sidebar-posts__title {
+    margin-bottom: 15px;
+    
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.sidebar-posts__subtitle{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+    text-transform: uppercase;
+    color: #B0B0B0;
+}

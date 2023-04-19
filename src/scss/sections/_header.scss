@@ -1,0 +1,40 @@
+.header {
+    padding-top: 47px;
+    padding-bottom: 47px;
+    border-bottom: 1px solid #dde2e7;
+}
+
+.container-big {
+    width: 1570px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__but{
+    display: flex;
+    column-gap: 45px;
+}
+
+.header__but-search {
+    transform: opacity 0.5s;
+    img {
+        width: 26px;
+    }
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+button.header__but-search {
+    background-color: transparent;
+}

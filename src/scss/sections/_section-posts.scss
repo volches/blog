@@ -1,0 +1,20 @@
+.section-posts {
+    padding-bottom: 80px;
+}
+
+.section-posts__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.section-posts__column-left{
+    width: 870px;
+}
+
+.section-posts__sidebar{
+    padding-top: 60px;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}

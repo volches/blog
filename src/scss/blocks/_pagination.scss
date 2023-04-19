@@ -1,0 +1,31 @@
+.pagination {
+    padding-top: 40px;
+    width: 468px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.pagination__dots {
+    display: flex;
+    column-gap: 17px;
+
+    a{
+        text-decoration: none;
+        color: #000;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        transition: color 0.5s;
+
+        &:hover {
+            color: rgb(216, 61, 221);
+        }
+    }
+
+    .pagination__dot-active {
+        color: #E84C50;
+    }
+}
+

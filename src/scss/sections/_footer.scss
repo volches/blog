@@ -1,0 +1,31 @@
+.footer{
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background-color: #DDE2E7;
+    
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+
+    a {
+        text-decoration: none;
+        color: #8E9399;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        transform: color 0.5s;
+
+        &:hover {
+            color: #3a3c3f;
+        }
+    }
+}

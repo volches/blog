@@ -1,0 +1,10 @@
+mixin sidebar-post(link, img, title, subtitle)
+    a(href= link ).sidebar-post__link-wrapper 
+        .sidebar-post
+            .sidebar-post__img
+                img(src="./img/sidebar-posts/" + img, alt=title)
+            h5.sidebar-posts__title #{title}
+            h6.sidebar-posts__subtitle #{subtitle}
+        
+
+
